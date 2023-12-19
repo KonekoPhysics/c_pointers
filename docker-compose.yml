@@ -1,0 +1,9 @@
+version: '3'
+services:
+  c_pointers:
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    stdin_open: true
+    tty: true
