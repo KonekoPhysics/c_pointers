@@ -125,6 +125,7 @@ int main() {
 $ gcc normal_array.c -o normal_array && ./normal_array
 2
 ```
+### ポインタについて
 
 ポインタはアドレスをただただ格納するだけなので、変数がどれだけ格納されるか、なんてわかるわけがない。したがって、`int *a = {0,1,2};`などと書くとSegmentation fault.になる。ソースコードは`./src/ptr_as_array.c`である。
 ```c
